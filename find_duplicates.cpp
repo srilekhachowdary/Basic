@@ -44,6 +44,14 @@ while(getline(finalfile,line))
 					break;	
 				}
 			}
+			else if(a[l][0]==k)
+			{
+				if(a[l][1]!=m)
+				{
+					cout<<word<<","<<word1<<"   "<<a[l][0]<<","<<a[l][1]<<endl;
+					break;	
+				}
+			}
 			else
 			{
 				l=l+1;
